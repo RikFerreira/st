@@ -257,7 +257,7 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_X,           invert,         { }       },
 
     { MODKEY,               XK_l,           externalpipe,   {.v = copyurlcmd } },
-	{ MODKEY|ShiftMask,     XK_l,           externalpipe,   {.v = openurlcmd } },
+	{ MODKEY|ShiftMask,     XK_L,           externalpipe,   {.v = openurlcmd } },
 	{ MODKEY,               XK_o,           externalpipe,   {.v = copyoutput } },
 };
 
